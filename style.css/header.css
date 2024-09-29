@@ -1,26 +1,86 @@
-body{
-margin: 0;
+body {
+  margin: 0;
 }
-.nav-header{
-background-color:#284243;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-height: 90px;
+.nav-header {
+  background-color: #284243;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
 }
 
 .title {
-font-family: Lobster, Arial;
-color: white;
-font-size: 40px;
+  font-family: Lobster, Arial;
+  color: white;
+  font-size: 42px;
 }
 
-.logo{
-width: 50px;
-padding-top: 5px;
+.logo {
+  width: 50px;
+  padding-top: 5px;
 }
 
-.title-logo{
-margin-left: 80px;
+.title-logo {
+  margin-left: 80px;
+}
+
+.login {
+  font-family: Arial;
+  color: white;
+  font-weight: bold;
+}
+.header-btn {
+  background-color: #ec5119;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 50px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.getstarted-btn {
+  background-color: #ec5119;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 50px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.create-url {
+  text-align: center;
+}
+.heading {
+  color: #284243;
+  font-size: 52px;
+  font-family: Arial;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  line-height: 5px;
+}
+.para-heading {
+  color: #284243;
+  font-size: 22px;
+  font-family: Lobster, Arial;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.project-purpose {
+  color: #284243;
+  font-family: Arial;
+  font-size: 22px;
+  width: 650px;
+  margin-left: 330px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
 }
