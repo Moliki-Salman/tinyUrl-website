@@ -62,6 +62,7 @@ body {
 
 .create-url {
   text-align: center;
+  margin-bottom: 26px;
 }
 .heading {
   color: #284243;
@@ -83,4 +84,116 @@ body {
   width: 650px;
   margin-left: 330px;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.search-bar {
+  padding-top: 25px;
+  padding-bottom: 19px;
+  padding-left: 18px;
+  padding-right: 10px;
+  font-size: 16px;
+  width: 60%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 3px rgba(48, 29, 29, 0.05);
+  margin-right: -5px;
+}
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.search-button {
+  font-family: Arial;
+  font-size: 20px;
+  background-color: #284243;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 15px;
+  margin-left: -4px;
+  border: none;
+  border-radius: 2px;
+}
+
+.div-header {
+  margin-bottom: 20px;
+}
+
+.url-result {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  margin-left: 20px;
+height: 100px;
+margin-right: 160px;
+margin-left: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.urlresult-link{
+position: absolute;
+top: 18px;
+left: 20px;
+}
+
+.url-link {
+  color: #284243;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+}
+
+.urlresult-buttons{
+position: absolute;
+    top: 18px;
+    right:20px ;
+}
+
+.urlresult-buttons {
+
+}
+
+.stats-button {
+  font-family: Roboto, Arial;
+  font-size: 17px;
+  background-color: #aea79f;
+  color: white;
+  border: none;
+  padding-right: 20px;
+  padding-left: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
+
+.edit-button {
+  font-family: Roboto, Arial;
+  font-size: 17px;
+  background-color: #ec5119;
+  color: white;
+  border: none;
+  padding-right: 20px;
+  padding-left: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+
+}
+
+.copylink-button {
+  font-family: Roboto, Arial;
+  font-size: 17px;
+  background-color: #284243;
+  color: white;
+  border: none;
+  padding-right: 20px;
+  padding-left: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
 }
