@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px;
 }
 .nav-header {
   background-color: #284243;
@@ -157,9 +159,6 @@ body {
   right: 20px;
 }
 
-.urlresult-buttons {
-}
-
 .stats-button {
   font-family: Roboto, Arial;
   font-size: 17px;
@@ -219,7 +218,44 @@ body {
 }
 
 .p-projectfunction {
-font-family: Roboto, Arial;
-margin-top: 7px;
-line-height: 1.5;
+  font-family: Roboto, Arial;
+  margin-top: 7px;
+  line-height: 1.5;
 }
+p span {
+  color: #ec5119;
+}
+
+
+p a {
+  text-decoration: none;
+}
+
+p span:hover {
+  color: #284243;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn {
+    height: 80%;
+    width: 85%;
+    margin-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Roboto, Arial;
+    font-size: 17px;
+    color: rgb(89, 85, 85);
+    border: none;
+}
+
+.text-orange {
+    color: #ec5119;
+}
+.line{
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-top: 70px;
+    opacity: 0.5;
+}
+
